@@ -1,30 +1,73 @@
-# ProReporter app
-
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/hamzamuzamil21-gmailcoms-projects/v0-pro-reporter-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/RE8K8nY0k6Z)
+# ProReporter - Professional Report Generation Platform
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+ProReporter is a sophisticated web application designed to streamline and enhance the report generation process. Built with modern web technologies, it offers an intuitive interface for creating, managing, and sharing professional reports efficiently.
 
-## Deployment
+## Features
 
-Your project is live at:
+- Dynamic report generation
+- Interactive dashboard interface
+- Custom report templates
+- Real-time collaboration tools
+- Advanced data visualization
+- Responsive design across devices
+- Secure data handling
+- Export functionality in multiple formats
 
-**[https://vercel.com/hamzamuzamil21-gmailcoms-projects/v0-pro-reporter-app](https://vercel.com/hamzamuzamil21-gmailcoms-projects/v0-pro-reporter-app)**
+## Technology Stack
 
-## Build your app
+- Next.js for server-side rendering
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Modern React patterns and hooks
+- Middleware for request handling
+- Component-based architecture
 
-Continue building your app on:
+## Getting Started
 
-**[https://v0.dev/chat/projects/RE8K8nY0k6Z](https://v0.dev/chat/projects/RE8K8nY0k6Z)**
+### Prerequisites
 
-## How It Works
+- Node.js (16.x or higher)
+- pnpm package manager
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### Installation
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
+```
+
+Project Structure
+├── app/
+│   ├── components/
+│   ├── contexts/
+│   ├── hooks/
+│   └── styles/
+├── public/
+├── lib/
+├── styles/
+└── configuration files
+
+## Development Guidelines
+- Follow TypeScript best practices
+- Use component-based architecture
+- Implement responsive design principles
+- Maintain consistent code formatting
+- Write comprehensive documentation
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request

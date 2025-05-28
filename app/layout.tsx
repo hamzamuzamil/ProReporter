@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "ProReporter - AI-Powered Data Analysis",
   description: "Transform your CSV data into actionable insights with AI-powered analysis",
-    generator: 'v0.dev'
+
 }
 
 export default function RootLayout({
